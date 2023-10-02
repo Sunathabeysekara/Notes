@@ -3,39 +3,35 @@
 <head>
 	<title>login page</title>
 	<link rel="icon" type="image" href="img/icon.jpg">
+	<link rel="stylesheet" type="text/css" href="hstyle.css">
 	<style type="text/css">
-		.contianer{
-			margin: auto;
-			width:300px;
-			height:216px;
-			border-radius: 7px;
-			background-color:transparent;
-			border-width: 1px;
-			border-style:solid;
-			border-color: black;
-			color:black;
-		}
+		.contianer
+		.ftbx
+		
 	</style>
 </head>
 
 <body>
+<header><br>
 <h1  style="text-align: center; font-family:poppins,sans-serif;">Notes Hub</h1>
+</header>
 <br><br>
 <div class="contianer">
 <form method="POST" action="login.php">
 	<h2  style="font-family:poppins,sans-serif;text-align: center; ">Login</h2>
 
-    <label for="E-mail" style="margin-left:28px;">E-mail:</label>
-    <input type="text" id="username" style="margin-left:8px;background-color: #f5f5f5" name="username" required><br>
+    <!--<label for="E-mail" style="margin-left:28px;">E-mail:</label>-->
+    <input type="text" id="username" style="margin-left:45px;background-color: #f5f5f5; border-radius:8px;border-color: black;text-align: center; " name="username" placeholder=" E-mail" required><br>
     <br>
-    <label for="password" style="margin-left:6px;">Password:</label>
-    <input type="password"	style="margin-left:12px;background-color: #f5f5f5" id="password" name="password" required><br>
-    <input style="margin-right: 3px" type="checkbox" name="">
-    <label for="remberme">Remember me </label>
-    <a href="">Forgotpassword</a>
+    <!--<label for="password" style="margin-left:6px;">Password:</label>-->
+    <input type="password"	style="margin-left:45px;background-color: #f5f5f5; border-radius:8px; border-color: black; text-align:center;" id="password" name="password" placeholder="Password" required><br>
+    
+    <label for="remberme" style="margin-left: 11px ">Remember me </label>
+    <input style="margin-right: 13px" type="checkbox" name="">
+    <a href="">Forgot-password</a>
     <br>
 
-    <input type="submit" value="Log In" style="margin-left: 120px;margin-top: 12px;">
+    <input type="submit" value="Log In" style="margin-left: 100px;margin-top: 12px;">
     <br>
     <p style="text-align: center">Don't have an account? <a href="register.html">Register</a></p>
  
@@ -43,5 +39,10 @@
 </div>
 
 
+
+
+<div class="ftbx">
+		&copy;copyright reserved
+</div>
 </body>
 </html>
