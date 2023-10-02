@@ -4,8 +4,8 @@ h2{
 	margin-left: 15px;
 }
 header{
-	position:unset ;
-	top: 0;
+
+	position:static; ;
 	background-color: #07c0f5;
 }
 a{
@@ -18,29 +18,76 @@ li{
 	padding: 0px 30px;
 	text-decoration: none;
 }
+html{
+	height: 100%;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	min-height: 98vh;
+}
 footer{
-	position:absolute;
-	bottom:0;
+	position:static;
+	padding: 10px;
+	left:0px;
+	background-color:#07c0f5; 
+	text-align: right;
+	
+	margin-top: auto;
 
 }
-.ftbx{
-	position: absolute;
-	bottom: 0;
-	height: 32px;
-	width:1520px;
-	background-color: #07c0f5;
+.popupcontainer{
+	display: none;
+	position: fixed;
+	margin: auto;
+	width:260px;
+	height:238px;
+	border-radius: 7px;
+	background-color:blur;
+	border-width: 0px;
+	border-style:solid;
+	border-color: black;
+	color:black;
+	box-shadow: 4px 4px 32px black;
+
 }
+
+
+
+.background{
+	min-height:0vh;
+	justify-content: center;
+	
+}
+.background::before{
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	content:'';
+	background-image: url(img/background2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0.38;
+
+	}
 .contianer{
+			position: relative;
 			margin: auto;
 			width:260px;
-			height:218px;
+			height:238px;
 			border-radius: 7px;
 			background-color:transparent;
 			border-width: 0px;
 			border-style:solid;
 			border-color: black;
 			color:black;
-			box-shadow: 4px 4px 32px silver;
+			box-shadow: 4px 4px 32px black;
 		}
 .homebar{
 	color: black;
