@@ -43,7 +43,7 @@ footer{
 	width:260px;
 	height:238px;
 	border-radius: 7px;
-	background-color:blur;
+	background-color:transparent;
 	border-width: 0px;
 	border-style:solid;
 	border-color: black;
@@ -51,8 +51,6 @@ footer{
 	box-shadow: 4px 4px 32px black;
 
 }
-
-
 
 .background{
 	min-height:0vh;
@@ -108,3 +106,6 @@ footer{
 	font-size: 17px;
 
 }
+
+
+
