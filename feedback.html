@@ -2,9 +2,65 @@
 <html>
 <head>
 	<title>feedback</title>
+	<link rel="icon" type="image" href="img/icon.jpg">
 	<link rel="stylesheet" type="text/css" href="feedback.css">
+	<link rel="stylesheet" type="text/css" href="hstyle.css">	
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/js/bootstrap.bundle.min.js">	
+	<style type="text/css">
+		.feedbackbox{
+
+		}
+		body{
+		}
+		.fbox{
+			position: absolute;
+			width: 100;
+			height: 100;
+			background-color: black;
+
+		}
+	</style>
+	
 </head>
 <body>
+<header>
+	<br><h2>Notes</h2>
+</header>
+<div class="background">
+</div>
 
+<h2 id="punch">Help us, Help you...</h2>
+
+<pre id="fcontent">help us to improve </pre>
+
+<div class="fbox">
+	<form method="post" action="feedback.php">
+		<label for="name">Name :</label>
+		<input type="text" name="name" id="name" required>
+		<br><br>
+		<label for="E-maile">E-mail :</label>
+		<input type="text" name="mail" id="E_mail" required>
+		<br>
+		<p>Suggetions :</p>
+		<textarea rows="5" cols="45" ></textarea>
+		<br>
+		<input type="submit" class="btn btn-primary active btn-sm" name="Submit">
+	</form>
+</div>
+
+
+<div class="fbox">
+	
+</div>
+
+
+
+
+
+
+<footer>
+	&copy;copyright reserved
+</footer>
 </body>
 </html>
