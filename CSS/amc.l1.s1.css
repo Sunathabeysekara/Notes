@@ -1,0 +1,123 @@
+
+html,body{
+	height: 100%;
+	font-family :cursive,sans-serif,poppins,arial;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+}
+.navbar{
+	max-width: 1100px;
+	padding: 0em 0;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header{
+	background-color: none;
+	padding: 2rem 0;
+}
+span{
+	color:#4b4b4b;
+}
+ul{
+	list-style: none;
+}
+h2{
+	font-family: cursive,sans-serif,poppins,arial;
+	font-size:33px;
+	margin-left:38px;
+	margin-top:20px;
+}
+.navbar >li,.navbar >a{
+	display: inline-block;
+}
+.navbar li{
+	position: relative;
+
+}+
+.navbar a{
+	color: black;
+	font-size: 16px;
+	text-decoration: none;
+	display: block;
+	padding: 1px 1.5rem;
+	
+}
+
+.navbar a:hover{
+		background-color: silver
+		color:black;
+		font-family: cursive,sans-serif,poppins;
+		transform: ;
+}
+html{
+	height: 100%;
+	font-family: cursive,sans-serif,arial;
+}
+body{
+	font-size: 1rem;
+	line-height: 1.6;
+	height: 100%;
+	background-image: url(img/background.JPG);
+	background-position: center;
+	font-family: cursive,sans-serif,arial;
+}
+
+h4{
+	font-family: cursive;
+	font-style: italic;
+	font-size: 52px;
+	margin-left: 80px;
+	margin-top: 27vh;
+	text-shadow: 18px 16px 14px silver;
+}
+
+
+/**************sublevel for level and sem selection***********************/
+
+.sublvl1{
+	position: absolute;
+    background-color: none;
+    width: 80PX;
+    left: 0px;
+    display: none;
+    text-align: left;
+
+}
+.sublvl2{
+	position: absolute;
+	margin-left: 100%;
+	width: 100px;
+	display: none;
+	background-color:none ;
+	top: 1PX;
+}
+
+.navbar li:hover >.sublvl1{
+	display: block;
+}
+.sublvl1 li:hover >.sublvl2{
+	display: block;
+}
+
+#top{
+	margin-top: 6vh;
+	margin-left:2vh;
+	font-weight: bold;
+	font-size: 16px;
+}
+.files{
+	margin-left:79%;
+	margin-top: 0%;
+	
+}
+
